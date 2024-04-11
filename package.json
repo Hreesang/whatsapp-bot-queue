@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "rollup --config scripts/rollup.config.js --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.12.7",
+    "@types/qrcode-terminal": "^0.12.2",
+    "dotenv": "^16.4.5",
+    "rollup": "^4.14.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "google-auth-library": "^9.7.0",
+    "google-spreadsheet": "^4.1.1",
+    "log4js": "^6.9.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}

@@ -1,0 +1,6 @@
+dist
+node_modules
+scriptfiles/.wwebjs_auth
+scriptfiles/logs.log
+.env
+package-lock.json
